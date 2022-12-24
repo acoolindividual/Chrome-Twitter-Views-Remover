@@ -1,0 +1,25 @@
+{
+    "short_name": "NoViews",
+    "name": "Twitter Views Remover",
+    "description": "removes the Twitter views feature.",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://www.twitter.com/*",
+                "https://twitter.com/*"
+            ],
+            "js": [
+                "index.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_icon": "icon.png"
+    },
+    "manifest_version": 3,
+    "version": "1.0.0"
+}
