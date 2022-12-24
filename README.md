@@ -22,4 +22,4 @@ This extension is currently compatible with Chromium based browsers. A Firefox v
 
 ## Future plans
 - Add Firefox support
-- Use extension storage API to allow users to toggle the extension on and off via the extension's interface popup
+- Use extension storage API to allow users to toggle the extension's features on and off via the extension's interface popup 
